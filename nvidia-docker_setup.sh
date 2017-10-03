@@ -4,4 +4,4 @@ wget -P /tmp https://github.com/NVIDIA/nvidia-docker/releases/download/v1.0.1/nv
 sudo dpkg -i /tmp/nvidia-docker*.deb && rm /tmp/nvidia-docker*.deb
 
 # Test nvidia-smi
-nvidia-docker run --rm nvidia/cuda nvidia-smi
+sudo nvidia-docker run --rm nvidia/cuda nvidia-smi
